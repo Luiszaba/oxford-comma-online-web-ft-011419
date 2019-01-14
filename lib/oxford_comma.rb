@@ -1,4 +1,10 @@
 def oxford_comma(array)
-array.split.
+  if array == 1
+    array.split
+    elsif array == 2
+    array.join(",")
+    elsif array = 3
+    array.
+    
 
 end
