@@ -1,9 +1,9 @@
 def oxford_comma(array)
-  if array == 1
+  if array.length == 1
     array.split
-    elsif array == 2
+    elsif array.legnth == 2
     array.join(",")
-    elsif array == 3
+    elsif array.legnth == 3
     else array[-1].prepend "and"
     array.join()
   end
